@@ -5,13 +5,17 @@ name = str(input("Lutfen Adinizi giriniz: "))
 lastname = str(input("Lutfen Soyadinizi giriniz: "))
 age = int(input("Lutfen Yaşinizi giriniz: "))
 dateofbirth = int(input("Lütfen dogum yilinizi yaziniz: "))
-list1.append([name, lastname, age, dateofbirth])
+#list1.append([name, lastname, age, dateofbirth]) bunu da kullanabilirdim ama for loop'da ekrana yazdırmamız istendiği için aşağıdaki gibi yaptım;
 
-#if type(name) != str:    KONTROL İÇİN AMA EKSİK BİR NOKTADA
-#    Print("Lütfen adinizi giriniz")
+list1.append(name)
+list1.append(lastname)
+list1.append(age)
+list1.append(dateofbirth)
 
 for i in list1:
     print(i)
+
+#print(list1)
 
 if (age < 18):
     print("You can't go out because it's too dangerous")
