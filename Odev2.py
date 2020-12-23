@@ -11,8 +11,6 @@ list1.append(lastname)
 list1.append(age)
 list1.append(dateofbirth)
 
-print(list1)
-
 for i in list1:
     print(i)
 
