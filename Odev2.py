@@ -5,7 +5,6 @@ name = str(input("Lutfen Adinizi giriniz: "))
 lastname = str(input("Lutfen Soyadinizi giriniz: "))
 age = int(input("Lutfen Yaşinizi giriniz: "))
 dateofbirth = int(input("Lütfen dogum yilinizi yaziniz: "))
-#list1.append([name, lastname, age, dateofbirth]) bunu da kullanabilirdim ama for loop'da ekrana yazdırmamız istendiği için aşağıdaki gibi yaptım;
 
 list1.append(name)
 list1.append(lastname)
