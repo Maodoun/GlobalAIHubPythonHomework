@@ -14,7 +14,7 @@ list1.append(dateofbirth)
 for i in list1:
     print(i)
 
-#print(list1)
+print(list1)
 
 if (age < 18):
     print("You can't go out because it's too dangerous")
