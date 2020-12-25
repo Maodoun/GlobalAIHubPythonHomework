@@ -1,6 +1,4 @@
 #Global Ai Hub Ödev #Simple Student Management System:
-import os
-import platform
 
 print("**********Welcome to Student Management System*********")
 
@@ -63,3 +61,5 @@ if check == True:
                 print(f"Your grade is {grade}:AA")
         break
 
+
+        
