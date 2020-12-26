@@ -33,7 +33,7 @@ while range(3):
         if signin_attempt == 0:
             print("Plese try again later.")
             break
-#lesson list sayı kontrolü
+
 if len(lesson_list) < 3:
     print("You are failed in class.")
 
