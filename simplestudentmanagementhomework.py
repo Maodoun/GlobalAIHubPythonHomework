@@ -19,9 +19,9 @@ while range(3):
     if name1 == namelist[0]:
         print(f"welcome {namelist[0]}")
         for i in range(5):
-            fquit = input("Press q for complete or enter any key for adding lessons: ")
+            fquit = input("Press q for quit or enter any key for adding lessons: ")
             i += 1
-            if fquit == "q":
+            if fquit == "q" or == fquit == "Q":
                 break
             lessons = input(f"Please choose lesson {i} : ")
             lesson_list.append(lessons)
