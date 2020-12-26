@@ -2,9 +2,7 @@
 
 print("**********Welcome to Student Management System*********")
 
-fullname = str(input("Please Enter Your Name and Surname: "))
-namelist = []
-namelist.append(fullname)
+namelist = ["metehan gül"]
 
 check = False
 lesson_list = []
